@@ -12,9 +12,10 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Napis co chces zasifrovat: ");
             string vstup = Console.ReadLine();
+            Console.WriteLine("Napis kod: ");
+            int kod = Console.ReadLine();
             string vystup = "";
             char znak =' ';
-            int kod;
             vstup = vstup.ToUpper();
 
             for (int i =0; i<vstup.Length; i++)
